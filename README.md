@@ -1,5 +1,7 @@
 # VitePractice
 `create-react-app`을 사용하지 않고 React 프로젝트를 직접 설정해보는 프로젝트.
+- [왜 하는가?](https://vitejs-kr.github.io/guide/why.html)
+- [결과물 보기](https://vite-practice.vercel.app/)
 
 # 설치 과정
 - `package.json` 작성
