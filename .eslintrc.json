@@ -5,20 +5,28 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "standard-with-typescript",
-        "react-app",
-        "airbnb",
-        "prettier"
+        "airbnb"
     ],
-    "overrides": [
-    ],
+    "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": "latest",
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "@typescript-eslint"
     ],
     "rules": {
+        "linebreak-style": "off",
+        "react/jsx-filename-extension": "off",
+        "import/no-unresolved": "off",
+        "import/extensions": "off",
+        "react/function-component-definition": "off",
+        "react/jsx-one-expression-per-line": "off",
+        "react/button-has-type": "off",
+        "no-console": "error"
     }
 }
