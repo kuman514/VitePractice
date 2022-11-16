@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "lint": "yarn eslint src/*",
-    "build": "yarn lint && tsc && vite build",
+    "lint": "yarn eslint src/**/*.{ts,tsx}",
+    "build": "yarn lint && tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
