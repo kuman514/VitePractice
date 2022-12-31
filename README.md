@@ -4,16 +4,25 @@
 - [결과물 보기](https://vite-practice.vercel.app/)
 
 # 설치 과정
-- `package.json` 작성
-- `npm install -g yarn`
+- 새로 설정 파일을 작성하거나 이전에 쓰던 설정 파일을 가져오기
+  - 예를 들어,
+  - `package.json`
+  - `tsconfig.json`
+  - `tsconfig.node.json`
+  - `vercel.json`
+  - `vite.config.ts`
+  - `.eslintignore`
+  - `.eslintrc.cjs`
+  - `.gitignore`
+  - `index.html`과 그에 따른 리액트 컴포넌트 `src/*.tsx`
+  - `src/react-app-env.d.ts` 리액트 환경설정 파일
+  - 등등
 - `yarn set version berry`
-- `yarn install`
-- `tsconfig.json`, `tsconfig.node.json`, `vite.config.ts`, `.gitignore` 등등의 설정 파일 작성
+- `yarn`
 - `yarn dlx @yarnpkg/sdks vscode`
 - `yarn plugin import typescript`
-- `yarn dlx eslint --init`
-- `index.html`, `src/index.tsx`, `src/Main.tsx` 작성
-- `yarn start`, `yarn build`, `yarn preview`가 정상 작동하는지 확인
+- `yarn start`, `yarn build`, `yarn preview`, `yarn lint`가 정상 작동하는지 확인
+
 
 # 설치 시 참고한 사이트
 - https://vitejs-kr.github.io/guide/#trying-vite-online
